@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* 
+    --Mobile: 375px;
+    --Desktop: 1440px;
+     */
+
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark_Raspberry: hsl(332, 51%, 32%);
+
+  --White: hsl(0, 0%, 100%);
+  --Rose_White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light_Grey: hsl(30, 18%, 87%);
+  --Wenge_Brown: hsl(30, 10%, 34%);
+  --Dark_Charcoal: hsl(24, 5%, 18%);
+
+  /* 
+    - Font size (paragraph): 16px
+    
+    - Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+    - Weights: 400
+    
+    - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+    - Weights: 400, 600, 700
+     */
+}
+body {
+  color: var(--Dark_Charcoal);
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+img {
+  width: 100%;
+}
+h1 {
+  margin: 30px;
+  font-family: "Young Serif", serif;
+}
+h2 {
+  color: var(--Nutmeg);
+  font-family: "Young Serif", serif;
+  font-weight: 100;
+}
+section.division {
+  margin: 30px;
+  /* color: red; */
+  font-family: "Outfit", sans-serif;
+}
+body > section > div.list {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: var(--Rose_White);
+  border-radius: 20px;
+}
+body > section > div.list > div.titleList {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--Dark_Raspberry);
+}
+ol {
+  /* list-style: none; */
+}
+li {
+  margin: 15px;
+
+  padding-left: 20px;
+}
+section.border {
+  padding: 30px 0;
+  padding-bottom: 10px;
+  border-top: 1px solid var(--Light_Grey);
+  border-bottom: 1px solid var(--Light_Grey);
+}
+section>p.pNutrition{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+table{
+  /* margin: 20px; */
+  border-collapse: collapse;
+  width: 100%;
+  /* border: 1px solid red ; */
+}
+th, tr{
+  font-weight: 400;
+  color: var(--Wenge_Brown);
+  padding: 10px;
+  border-bottom:1px solid var(--Light_Grey) ;
+}
+th.value{
+  font-weight: 600;
+  color: var(--Dark_Raspberry);
+}
+
