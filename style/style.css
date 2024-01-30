@@ -63,7 +63,7 @@ body > section > div.list > div.titleList {
   font-weight: 600;
   color: var(--Dark_Raspberry);
 }
-ol {
+ol{
   /* list-style: none; */
 }
 li {
